@@ -12,7 +12,7 @@ myTwilio = '...'
 # Grabbing JSON data
 try:
     city = input('What city do you want the weather for? ')
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&APPID=212ed8bcccde8a2e843d021fafa10620'.format(city)
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&APPID=212ed8bcccde8a2e843d021fafa10620'.format(city) #You may need your own APPID but mine should work
     rb = requests.get(url).json()
     # Temperature
     temperature = int(rb['main']['feels_like'])
