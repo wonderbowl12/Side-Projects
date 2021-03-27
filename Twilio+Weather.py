@@ -43,7 +43,7 @@ try:
     # Sending message
 
     message = twilioCli.messages.create(body=bodytest, from_=myTwilio, to=myNumber)
-    print(bodytest)
+    print(message)
 
 except:
     print("Error", sys.exc_info()[0], 'occured, please try again.\n')
