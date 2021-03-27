@@ -7,7 +7,7 @@ The program also works without needing twilio, however, you would need to commen
 
 
 ## API Used
-http://api.openweathermap.org/data/2.5/weather?q=(City)&APPID=212ed8bcccde8a2e843d021fafa10620
+http://api.openweathermap.org/
 
 ## Example input and output
 
